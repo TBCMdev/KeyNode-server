@@ -17,6 +17,7 @@ app.get('/download', (req, res) => {
 
 })
 app.get('/', (req, res) => {
+    console.log("getting main...")
     res.sendFile(`${__dirname}/index.html`)
 })
 
