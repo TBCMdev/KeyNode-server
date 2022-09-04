@@ -1,9 +1,6 @@
 const express = require('express')
 const cors = require('cors')
-const functions = require('firebase-functions')
 const body = require('body-parser')
-const { readFile, readFileSync } = require('fs')
-const { rawListeners } = require('process')
 
 var app = express()
 
